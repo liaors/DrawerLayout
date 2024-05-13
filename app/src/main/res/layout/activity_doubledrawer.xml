@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rs.mylibrary.DoubleDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/double_drawer_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/first_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开第一层" />
+
+        <Button
+            android:id="@+id/second_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开第二层" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700" />
+
+</com.rs.mylibrary.DoubleDrawerLayout>

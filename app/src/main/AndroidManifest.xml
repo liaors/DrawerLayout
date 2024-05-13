@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.rs.drawerlayout.SlideMenuActivity" />
+        <activity android:name="com.rs.drawerlayout.DoubleDrawerLayoutActivity" />
+        <activity android:name="com.rs.drawerlayout.XSearchActivity" />
     </application>
 
 </manifest>
