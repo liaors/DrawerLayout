@@ -21,7 +21,7 @@ class MainActivity : Activity() {
         }
 
         activityMainBinding.startSearchActivityBt.setOnClickListener {
-            startActivity(Intent(this,XSearchActivity::class.java))
+            startActivity(Intent(this,HalfOpenDrawerLayoutActivity::class.java))
         }
     }
 }

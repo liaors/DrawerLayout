@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- 是否手动分离文本，防止被自动换行-->
-    <declare-styleable name="XSearchView">
+    <declare-styleable name="HalfOpenDrawerLayout">
+<!--           动画时长-->
         <attr name="animationDuration" format="integer" />
+<!--        左侧布局占比，即主界面占比-->
         <attr name="leftPercent"  format="float" />
     </declare-styleable>
 </resources>

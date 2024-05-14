@@ -16,7 +16,7 @@ import kotlin.math.abs
  * @author liaorongsheng
  * @2023/11/07
  */
-class XSearchView @JvmOverloads constructor(
+class HalfOpenDrawerLayout @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet?,
     defStyle: Int = 0) : FrameLayout(context, attrs, defStyle) {
@@ -45,9 +45,9 @@ class XSearchView @JvmOverloads constructor(
         private const val TAG = "XLSearchView"
     }
     init {
-        val obtainStyledAttributes = context.obtainStyledAttributes(attrs, R.styleable.XSearchView)
-        duration = obtainStyledAttributes.getInteger(R.styleable.XSearchView_animationDuration,DEFAULT_DURATION)
-        leftPercent =  obtainStyledAttributes.getFloat(R.styleable.XSearchView_leftPercent,0.4f)
+        val obtainStyledAttributes = context.obtainStyledAttributes(attrs, R.styleable.HalfOpenDrawerLayout)
+        duration = obtainStyledAttributes.getInteger(R.styleable.HalfOpenDrawerLayout_animationDuration,DEFAULT_DURATION)
+        leftPercent =  obtainStyledAttributes.getFloat(R.styleable.HalfOpenDrawerLayout_leftPercent,0.4f)
         val screenWidth: Int = getScreenWidth()
         rightWidth = screenWidth
         leftWidth = (screenWidth * leftPercent).toInt()

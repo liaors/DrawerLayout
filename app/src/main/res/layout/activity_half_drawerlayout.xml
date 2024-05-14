@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rs.mylibrary.HalfOpenDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:animationDuration="1000"
+    android:id="@+id/half_drawer_layout"
+    app:leftPercent="0.6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200">
+
+        <Button
+            android:id="@+id/open_bt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="主界面"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500">
+
+        <Button
+            android:id="@+id/close_bt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="可以划出的抽屉"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</com.rs.mylibrary.HalfOpenDrawerLayout>
