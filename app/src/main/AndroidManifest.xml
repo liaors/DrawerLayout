@@ -23,6 +23,7 @@
         <activity android:name="com.rs.drawerlayout.SlideMenuActivity" />
         <activity android:name="com.rs.drawerlayout.DoubleDrawerLayoutActivity" />
         <activity android:name="com.rs.drawerlayout.HalfOpenDrawerLayoutActivity" />
+        <activity android:name="com.rs.drawerlayout.DrawerLayoutActivity" />
     </application>
 
 </manifest>

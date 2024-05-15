@@ -13,6 +13,9 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
+        activityMainBinding.startDrawerlayoutBt.setOnClickListener {
+            startActivity(Intent(this,DrawerLayoutActivity::class.java))
+        }
         activityMainBinding.startSlideMenuBt.setOnClickListener {
             startActivity(Intent(this,SlideMenuActivity::class.java))
         }
